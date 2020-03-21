@@ -1,0 +1,23 @@
+#contact {
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center; }
+
+.specificMessage, .detailMessage {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none; }
+
+.specificMessage {
+  color: brown;
+  font-size: large; }
+  .specificMessage .special {
+    letter-spacing: 5px;
+    font-size: 2rem;
+    color: orange; }
+
+.detailMessage {
+  color: red; }
+
+/*# sourceMappingURL=sass.css.map */

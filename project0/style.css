@@ -1,0 +1,48 @@
+body{
+
+    background-color: antiquewhite;
+
+}
+
+footer{
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+#profile-pic{
+
+    border-radius: 50%;
+}
+
+.title{
+    font-weight: bold;
+}
+
+#contact-header {
+	text-transform: uppercase;
+	flex: 1;
+	font-size: 3rem;
+	padding-bottom: 15px;
+
+}
+
+.contact-detail {
+	/* text-transform: uppercase; */
+	letter-spacing: 5px;
+	font-size: 2rem;
+
+}
+
+#contact-detail-one {
+	padding-bottom: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: orange;
+    }
+}
+

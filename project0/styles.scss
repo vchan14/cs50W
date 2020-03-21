@@ -1,0 +1,39 @@
+$notBlue: orange;
+
+
+#contact{
+    font-weight: bold; 
+    font-size: 80px;
+    text-align: center;
+
+
+
+
+}
+
+%message{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+.specificMessage{
+    @extend %message;
+    color: brown;
+
+    font-size: large;
+
+
+    .special{
+        letter-spacing: 5px;
+        font-size: 2rem;
+        color: $notBlue;
+    }
+}
+
+.detailMessage{
+    @extend %message; 
+    color: red;
+}
